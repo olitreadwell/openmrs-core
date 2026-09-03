@@ -783,7 +783,7 @@ public class DatabaseUpdater {
 
 			//check if there was an error while writing to the file
 			if (writer.checkError()) {
-				log.warn("An Error occured while writing warnings to the database update log file'");
+				log.warn("An Error occurred while writing warnings to the database update log file'");
 			}
 
 			writer.close();
