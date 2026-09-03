@@ -24,7 +24,7 @@
 - CONTRIBUTING discourages whitespace/style-only PRs but does NOT ban trivial/doc/link/typo fixes.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- 2026-09-03 self-found trivial cleanup pass (typos/dead links/stale commands in docs) — outcome: see run log.
+- 2026-09-03 self-found trivial cleanup pass — outcome: pr-opened (fork PR #1). 10 spelling fixes (log msgs, Javadoc, messages.properties labels, README Java 8->21). Fork CI not connected; typo-only, no compiled path changed.
 
 ## Mined gaps (discovered, not yet attempted)
 - see run log for the trivial-fix pass on docs (typos, dead links, stale command references).
