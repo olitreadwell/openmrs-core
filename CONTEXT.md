@@ -1,5 +1,5 @@
 # openmrs/openmrs-core context
-> refreshed 2026-09-03 | upstream default: master @ 9d40dd36b85af0eccb780b934c5b8330d03f8f82
+> refreshed 2026-09-30 | upstream default: master @ d801de9eb121c46c4cd420aaa5df4d792cc0f8a0
 
 ## Identity & policies
 - upstream: openmrs/openmrs-core, default branch `master`, primary language Java, English-first (yes — docs/CONTRIBUTING all English).
@@ -25,6 +25,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - 2026-09-03 self-found trivial cleanup pass — outcome: pr-opened (fork PR #1). 10 spelling fixes (log msgs, Javadoc, messages.properties labels, README Java 8->21). Fork CI not connected; typo-only, no compiled path changed.
+- 2026-09-30 self-found dead-link cleanup pass — outcome: pr-opened (fork PR #26, branch `docs/fix-dead-links`). 7 verified 404 links -> live canonical pages (wiki.openmrs.org short links -> Confluence; help.github.com deep links -> docs.github.com) across CONTRIBUTING.md, .github/PULL_REQUEST_TEMPLATE.md, api/.../module/dtd/README.md. Distinct from PR #1 (different files, links not spellings). Fork GitHub Actions still has zero runs, so no status checks; each old URL re-verified 404 and each replacement 200 with curl at fix time. `x/lwLn` mapped to the archived "Mailing Lists" Confluence page; `x/2RAz` to "Platform Unsupported Releases (EOL)".
 
 ## Mined gaps (discovered, not yet attempted)
-- see run log for the trivial-fix pass on docs (typos, dead links, stale command references).
+- Dead user-facing links left unfixed because no verified-200 canonical replacement was found: `https://wiki.openmrs.org/x/OALpAw` in `UpgradeUtil.java` (3 exception-message strings; no test references found), `https://wiki.openmrs.org/x/0oK5AQ` in the `messages*.properties` locale files (Release Testing Support module page), and a few old `docs.jquery.com/UI/*` links inside the vendored jQuery UI bundle. Do not re-pick these without a confirmed replacement.
