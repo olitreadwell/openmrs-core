@@ -28,7 +28,7 @@ public class InvalidFileTypeException extends APIException {
 	}
 
 	/**
-	 * General constructor to give a helpful message that relates to why this error occured
+	 * General constructor to give a helpful message that relates to why this error occurred
 	 *
 	 * @param message helpful message string
 	 */
