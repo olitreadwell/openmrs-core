@@ -1135,7 +1135,7 @@ public class HL7ServiceImpl extends BaseOpenmrsService implements HL7Service, Re
 
 			//check if there was an error while writing to the current file
 			if (writer.checkError()) {
-				log.warn("An Error occured while writing hl7 archive with id '" + hl7InArchive.getHL7InArchiveId()
+				log.warn("An Error occurred while writing hl7 archive with id '" + hl7InArchive.getHL7InArchiveId()
 				        + "' to the file system");
 				throw new APIException("Hl7Service.write.no.error", (Object[]) null);
 			}
