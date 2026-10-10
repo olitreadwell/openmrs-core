@@ -46,16 +46,16 @@ public class GZIPRequestStream extends ServletInputStream {
 
 	@Override
 	public boolean isFinished() {
-		throw new UnsupportedOperationException("Asynchonous operation is not supported.");
+		throw new UnsupportedOperationException("Asynchronous operation is not supported.");
 	}
 
 	@Override
 	public boolean isReady() {
-		throw new UnsupportedOperationException("Asynchonous operation is not supported.");
+		throw new UnsupportedOperationException("Asynchronous operation is not supported.");
 	}
 
 	@Override
 	public void setReadListener(ReadListener readListener) {
-		throw new UnsupportedOperationException("Asynchonous operation is not supported.");
+		throw new UnsupportedOperationException("Asynchronous operation is not supported.");
 	}
 }

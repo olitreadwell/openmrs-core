@@ -1199,7 +1199,7 @@ public class Obs extends BaseFormRecordableOpenmrsData {
 	/**
 	 * A previousVersion indicates that this Obs replaces an earlier one.
 	 *
-	 * @param previousVersion the Obs that this Obs superceeds
+	 * @param previousVersion the Obs that this Obs supersedes
 	 */
 	public void setPreviousVersion(Obs previousVersion) {
 		markAsDirty(this.previousVersion, previousVersion);

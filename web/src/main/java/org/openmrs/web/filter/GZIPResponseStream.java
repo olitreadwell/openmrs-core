@@ -167,11 +167,11 @@ public class GZIPResponseStream extends ServletOutputStream {
 
 	@Override
 	public boolean isReady() {
-		throw new UnsupportedOperationException("Asynchonous operation is not supported.");
+		throw new UnsupportedOperationException("Asynchronous operation is not supported.");
 	}
 
 	@Override
 	public void setWriteListener(WriteListener writeListener) {
-		throw new UnsupportedOperationException("Asynchonous operation is not supported.");
+		throw new UnsupportedOperationException("Asynchronous operation is not supported.");
 	}
 }
