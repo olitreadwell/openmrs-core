@@ -17,7 +17,7 @@ see https://issues.openmrs.org/browse/TRUNK-
 <!--- If you forgot a task please follow the instructions below -->
 - [ ] My IDE is configured to follow the [**code style**](https://wiki.openmrs.org/display/docs/Java+Conventions) of this project.
 
-  No? Unsure? -> [configure your IDE](https://wiki.openmrs.org/display/docs/How-To+Setup+And+Use+Your+IDE), format the code and add the changes with `git add . && git commit --amend`
+  No? Unsure? -> [configure your IDE](https://openmrs.atlassian.net/wiki/spaces/Archives/pages/25506949/How-To+Setup+And+Use+Your+IDE), format the code and add the changes with `git add . && git commit --amend`
 
 - [ ] I have **added tests** to cover my changes. (If you refactored
   existing code that was well tested you do not have to add tests)
