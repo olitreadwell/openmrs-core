@@ -101,7 +101,7 @@ public class HttpClient {
 
 		} catch (Exception e) {
 			log.warn("Exception while posting to : " + this.url, e);
-			log.warn("Reponse from server was: " + response);
+			log.warn("Response from server was: " + response);
 		} finally {
 			if (wr != null) {
 				try {

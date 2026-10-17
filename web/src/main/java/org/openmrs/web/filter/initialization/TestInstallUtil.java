@@ -195,7 +195,7 @@ public class TestInstallUtil {
 				}
 			}
 		} catch (IOException e) {
-			log.error("An error occured while copying modules to the test system:", e);
+			log.error("An error occurred while copying modules to the test system:", e);
 			successfullyAdded = false;
 		} finally {
 			IOUtils.closeQuietly(in);
