@@ -328,6 +328,20 @@ class ThreadSafeCircularFifoQueueTest {
 	}
 
 	@Test
+	void shouldNotDropElementsWhenGivenALargerArray() {
+		Queue<String> queue = new ThreadSafeCircularFifoQueue<>(100);
+		queue.addAll(Arrays.asList("a", "b", "c"));
+		// Oversized array — every element must survive, and the spare slots must be null
+		String[] oversized = queue.toArray(new String[5]);
+		assertEquals(5, oversized.length);
+		assertEquals("a", oversized[0]);
+		assertEquals("b", oversized[1]);
+		assertEquals("c", oversized[2]);
+		assertNull(oversized[3]);
+		assertNull(oversized[4]);
+	}
+
+	@Test
 	void shouldReturnNonNullToString() {
 		Queue<String> queue = new ThreadSafeCircularFifoQueue<>(100);
 		assertNotNull(queue.toString());
