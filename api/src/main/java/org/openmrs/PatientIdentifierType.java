@@ -40,7 +40,7 @@ public class PatientIdentifierType extends BaseChangeableOpenmrsMetadata {
 	public static final long serialVersionUID = 211231L;
 
 	/**
-	 * Enumerates the possible ways that location may be applicable for a particular Patient Identifer
+	 * Enumerates the possible ways that location may be applicable for a particular Patient Identifier
 	 * Type
 	 */
 	public enum LocationBehavior {

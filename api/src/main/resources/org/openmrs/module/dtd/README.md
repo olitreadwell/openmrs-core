@@ -4,7 +4,7 @@ This directory contains the XML doctype definitions for the various versions of 
 
 More details on the specific elements and the version history can be found here
 
-https://wiki.openmrs.org/display/docs/Module+Config+File
+https://openmrs.atlassian.net/wiki/spaces/Archives/pages/25477336/Module+Config+File
 
 ## Usage
 These DTD files should be added to the start of a `config.xml` so your IDE can support you with code completion/validation of
