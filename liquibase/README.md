@@ -99,7 +99,7 @@ multiple `org/openmrs/liquibase/updates/liquibase-update-to-latest-a.b.x.xml` fi
 
 * `liquibase-update-to-latest-template.xml` is a template for creating new update files.
 
-## When to generate Liquibase shapshots
+## When to generate Liquibase snapshots
 Liquibase snapshots need to be created...
 
 1. when a **new minor or major version** of OpenMRS is created (such as 2.3.x or 3.0.x), new snapshot files need to be 
@@ -115,7 +115,7 @@ version are added to
 
     * `org/openmrs/liquibase/updates`
    
-   The examples for the (hypothetic) OpemMRS version 4.8.x further above illustrates the different version numbers to 
+   The examples for the (hypothetic) OpenMRS version 4.8.x further above illustrates the different version numbers to 
    use for the new change log files.
 
 2. when a **database change is added to an existing minor or major version**, the snapshot files of later versions 

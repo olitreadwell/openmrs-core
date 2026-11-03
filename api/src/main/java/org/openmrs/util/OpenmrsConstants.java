@@ -764,10 +764,10 @@ public final class OpenmrsConstants {
 		        "WARNING: Using this search property can cause a drop in mysql performance with large patient sets.  A MySQL regular expression for the patient identifier search strings.  The @SEARCH@ string is replaced at runtime with the user's search string.  An empty regex will cause a simply 'like' sql search to be used. Example: ^0*@SEARCH@([A-Z]+-[0-9])?$"));
 		props.add(new GlobalProperty(GLOBAL_PROPERTY_PATIENT_IDENTIFIER_PREFIX, "", "This property is only used if "
 		        + GLOBAL_PROPERTY_PATIENT_IDENTIFIER_REGEX
-		        + " is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes \"... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';\".  Typically this value is either a percent sign (%) or empty."));
+		        + " is empty.  The string here is prepended to the sql identifier search string.  The sql becomes \"... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';\".  Typically this value is either a percent sign (%) or empty."));
 		props.add(new GlobalProperty(GLOBAL_PROPERTY_PATIENT_IDENTIFIER_SUFFIX, "", "This property is only used if "
 		        + GLOBAL_PROPERTY_PATIENT_IDENTIFIER_REGEX
-		        + " is empty.  The string here is prepended to the sql indentifier search string.  The sql becomes \"... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';\".  Typically this value is either a percent sign (%) or empty."));
+		        + " is empty.  The string here is prepended to the sql identifier search string.  The sql becomes \"... where identifier like '<PREFIX><QUERY STRING><SUFFIX>';\".  Typically this value is either a percent sign (%) or empty."));
 		props.add(new GlobalProperty(GLOBAL_PROPERTY_PATIENT_IDENTIFIER_SEARCH_PATTERN, "",
 		        "If this is empty, the regex or suffix/prefix search is used.  Comma separated list of identifiers to check.  Allows for faster searching of multiple options rather than the slow regex. e.g. @SEARCH@,0@SEARCH@,@SEARCH-1@-@CHECKDIGIT@,0@SEARCH-1@-@CHECKDIGIT@ would turn a request for \"4127\" into a search for \"in ('4127','04127','412-7','0412-7')\""));
 

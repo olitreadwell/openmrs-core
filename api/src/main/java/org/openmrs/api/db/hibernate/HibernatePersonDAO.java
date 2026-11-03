@@ -159,7 +159,7 @@ public class HibernatePersonDAO implements PersonDAO {
 	 * This method executes a Lucence search based on the soundex filter with more than three search
 	 * names given
 	 *
-	 * @param searchNames the names seperated by space that should be searched for
+	 * @param searchNames the names separated by space that should be searched for
 	 * @param birthyear the birthyear the searched person should have
 	 * @param includeVoided true if voided person should be included
 	 * @param gender of the person to search for

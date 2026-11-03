@@ -135,7 +135,7 @@ public class MedicationDispense extends BaseFormRecordableOpenmrsData {
 	private Double quantity;
 
 	/**
-	 * FHIR:quantity.unit and/or quanity.code Relates to drugOrder.quantityUnits
+	 * FHIR:quantity.unit and/or quantity.code Relates to drugOrder.quantityUnits
 	 */
 	@ManyToOne(optional = true)
 	@JoinColumn(name = "quantity_units")

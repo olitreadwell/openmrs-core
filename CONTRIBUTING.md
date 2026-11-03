@@ -2,11 +2,11 @@
 
 ## Resources for Getting Started
 
-Your contributions are what make OpenMRS an awesome Health IT system in developing countries. We want to make it as easy and fun as possible for you to contribute to the project and interact with the community. Before you get started contributing to OpenMRS, we encourage you to read both our [OpenMRS Developers Guide](http://om.rs/newdev) and our [Getting Started as a Developer](https://wiki.openmrs.org/x/MQAJ) wiki page.
+Your contributions are what make OpenMRS an awesome Health IT system in developing countries. We want to make it as easy and fun as possible for you to contribute to the project and interact with the community. Before you get started contributing to OpenMRS, we encourage you to read both our [OpenMRS Developers Guide](http://om.rs/newdev) and our [Getting Started as a Developer](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25477022/Getting+Started+as+a+Developer) wiki page.
 
 ## Reporting Bugs
 
-1. Please check to see if you are running the latest version of OpenMRS; the bug may already be resolved. If you are running an old version, it may no longer be supported. Check our [Unsupported Releases](https://wiki.openmrs.org/x/2RAz) page for details.
+1. Please check to see if you are running the latest version of OpenMRS; the bug may already be resolved. If you are running an old version, it may no longer be supported. Check our [Unsupported Releases](https://openmrs.atlassian.net/wiki/spaces/Archives/pages/26312514/Platform+Unsupported+Releases+EOL) page for details.
 
 2. Search for similar problems using the [OpenMRS Global Search](http://search.openmrs.org); it may already be an identified problem.
 
@@ -40,7 +40,7 @@ Regardless of whether you're reporting the bug to the OpenMRS core team or to a 
 
 1. After finding a JIRA issue for the "Ready for Work" bug or feature on which you'd like to work, claim the issue by clicking the "Claim Issue" button. This will assign the issue to you and change its status to "In Progress".
 
-2. [Fork the repo](http://help.github.com/fork-a-repo) on which you're working, clone your forked repo to your local computer, and set up the upstream remote:
+2. [Fork the repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) on which you're working, clone your forked repo to your local computer, and set up the upstream remote:
 
         git clone git://github.com/YourGitHubUserName/openmrs-core.git
         git remote add upstream https://github.com/openmrs/openmrs-core.git
@@ -120,17 +120,17 @@ Regardless of whether you're reporting the bug to the OpenMRS core team or to a 
 
 * If you haven't already, get an [OpenMRS ID](https://id.openmrs.org)
 * Make sure you have a [GitHub account](https://github.com/signup/free)
-* Submit or select a [JIRA issue](https://issues.openmrs.org) or choose from the introductory issues on our [Getting Started as a Developer](https://wiki.openmrs.org/x/MQAJ) page.
+* Submit or select a [JIRA issue](https://issues.openmrs.org) or choose from the introductory issues on our [Getting Started as a Developer](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25477022/Getting+Started+as+a+Developer) page.
 * Fork [openmrs-core](https://github.com/openmrs/openmrs-core/) or the repository for the module you are working on
 
 ### Interact with the community
 
 * Chat live with developers on [IRC](http://irc.openmrs.org) within #openmrs on freenode
-* Join our [developers mailing list](https://wiki.openmrs.org/x/lwLn)
+* Join our [developers mailing list](https://openmrs.atlassian.net/wiki/spaces/Archives/pages/26279085/Mailing+Lists)
 * Hang out with other community members at [OpenMRS Talk](http://talk.openmrs.org)
 
 ### Additional Resources
 
 * [Issue tracker (JIRA)](https://issues.openmrs.org)
 * [General GitHub documentation](http://help.github.com/)
-* [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
+* [GitHub pull request documentation](https://docs.github.com/en/pull-requests)

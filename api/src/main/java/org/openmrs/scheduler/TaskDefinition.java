@@ -73,7 +73,7 @@ public class TaskDefinition extends BaseChangeableOpenmrsMetadata implements Tas
 	private Long repeatInterval = 0L; // NOW in seconds to give us ability to
 
 	// support longer intervals (years, decades,
-	// milleniums)
+	// millennia)
 
 	@Column(name = "start_on_startup", nullable = false)
 	private Boolean startOnStartup;

@@ -105,7 +105,7 @@ public class OrderSearchCriteria {
 	 * @param concepts the concepts to match on; if not specified, matches on all concepts
 	 * @param orderTypes the order types to match on; if not specified, matches all order types
 	 * @param accessionNumber to match on; performs exact match if specified
-	 * @param orderNumber to match on; performs exact match if specifed
+	 * @param orderNumber to match on; performs exact match if specified
 	 * @param activatedOnOrBeforeDate orders must have dateActivated on or before this date
 	 * @param activatedOnOrAfterDate orders must have dateActivated on or after this date
 	 * @param includeVoided whether to include the voided orders or not
