@@ -326,6 +326,11 @@ public class ThreadSafeCircularFifoQueue<E> extends AbstractQueue<E> implements 
 		return toArray(new Object[0]);
 	}
 
+	/**
+	 * <strong>Should</strong> not drop elements when the given array is larger than the queue
+	 *
+	 * @see java.util.Collection#toArray(Object[])
+	 */
 	@Override
 	@SuppressWarnings("unchecked")
 	public <T> T[] toArray(T[] a) {
@@ -346,7 +351,7 @@ public class ThreadSafeCircularFifoQueue<E> extends AbstractQueue<E> implements 
 			}
 
 			if (result.length > size) {
-				for (int i = Math.max(0, size - 1); i < result.length; i++) {
+				for (int i = size; i < result.length; i++) {
 					result[i] = null;
 				}
 			}
